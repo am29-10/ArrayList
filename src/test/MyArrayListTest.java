@@ -6,12 +6,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
-import java.util.List;
-
 class MyArrayListTest {
     MyList<Integer> arrays;
-    List<Integer> arraysDemo;
 
     @BeforeEach
     void beforeEach() {
@@ -19,7 +15,6 @@ class MyArrayListTest {
         arrays.add(1);
         arrays.add(2);
         arrays.add(3);
-        arraysDemo = new ArrayList<>();
     }
 
     @Test
